@@ -1,4 +1,5 @@
 name: Plausible Thought
 markdown: redcarpet
 pygments: true
+permalink: /:title
 baseurl: /plausiblethought
