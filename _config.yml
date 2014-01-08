@@ -1,0 +1,4 @@
+name: Plausible Thought
+markdown: redcarpet
+pygments: true
+baseurl: /plausiblethought
