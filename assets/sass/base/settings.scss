@@ -5,19 +5,19 @@
 
 // Typography
 // -------------------------
-$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans: 'Source Sans Pro', sans-serif;
 $serif: Georgia, Times, "Times New Roman", serif;
 $altFont: Monaco, Menlo, Consolas, "Courier New", monospace;
 $baseFontFamily: $sans;
-$baseFontSize: 16px;
-$baseLineHeight: 22px;
+$baseFontSize: 20px;
+$baseLineHeight: 28px;
 
 
 // Colours
 // -------------------------
 $pageBackground: #fff;
 $textColour: #333;
-$linkColour: #03f;
+$linkColour: #3A83C6;
 $linkColourHover: darken($linkColour, 25%);
 
 $important: #BA4D48;

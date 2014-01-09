@@ -46,6 +46,7 @@ body {
 	font-size: $baseFontSize;
 	font-family: $baseFontFamily;
 	line-height: $baseLineHeight;
+	-webkit-font-smoothing: antialiased;
 }
 
 // Typography
@@ -100,6 +101,7 @@ a {
 	-ms-transition: color 0.2s ease-in-out;
 	-o-transition: color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out;
+	text-decoration: none;
 }
 
 a:hover {

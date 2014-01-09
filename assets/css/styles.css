@@ -2,9 +2,6 @@
 /*------------------------------------*\
 	LETS KICK THINGS OFF...
 \*------------------------------------*/
-/*
-test
-*/
 /*! normalize.css v1.1.0 | MIT License | git.io/normalize */
 /*! normalize.css v1.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
 /* line 20, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
@@ -352,63 +349,65 @@ textarea:-moz-placeholder {
 body {
   background-color: white;
   color: #333333;
-  font-size: 16px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 22px; }
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 28px;
+  -webkit-font-smoothing: antialiased; }
 
-/* line 54, ../sass/base/base.scss */
+/* line 55, ../sass/base/base.scss */
 p {
-  margin: 0 0 16px; }
+  margin: 0 0 20px; }
 
-/* line 58, ../sass/base/base.scss */
+/* line 59, ../sass/base/base.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased; }
 
-/* line 64, ../sass/base/base.scss */
+/* line 65, ../sass/base/base.scss */
 h1 {
   margin: 0 0 0.67em;
   font-size: 2em; }
 
-/* line 69, ../sass/base/base.scss */
+/* line 70, ../sass/base/base.scss */
 h2 {
   margin: 0 0 0.83em;
   font-size: 1.5em; }
 
-/* line 74, ../sass/base/base.scss */
+/* line 75, ../sass/base/base.scss */
 h3 {
   margin: 0 0 1em;
   font-size: 1.17em; }
 
-/* line 79, ../sass/base/base.scss */
+/* line 80, ../sass/base/base.scss */
 h4 {
   margin: 0 0 1.33em;
   font-size: 1em; }
 
-/* line 84, ../sass/base/base.scss */
+/* line 85, ../sass/base/base.scss */
 h5 {
   margin: 0 0 1.67em;
   font-size: 0.83em; }
 
-/* line 92, ../sass/base/base.scss */
+/* line 93, ../sass/base/base.scss */
 p.lead {
   font-size: 1.17em; }
 
-/* line 96, ../sass/base/base.scss */
+/* line 97, ../sass/base/base.scss */
 a {
-  color: #0033ff;
+  color: #3a83c6;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out; }
+  transition: color 0.2s ease-in-out;
+  text-decoration: none; }
 
-/* line 105, ../sass/base/base.scss */
+/* line 107, ../sass/base/base.scss */
 a:hover {
-  color: #001980; }
+  color: #1d4264; }
 
-/* line 109, ../sass/base/base.scss */
+/* line 111, ../sass/base/base.scss */
 blockquote {
   margin: 0;
   padding-left: 10px;
@@ -473,7 +472,7 @@ blockquote {
 /* line 57, ../sass/layout/grid.scss */
 .l-wrap .l-grid,
 .l-grid.l-wrap {
-  max-width: 978px;
+  max-width: 680px;
   margin: 0 auto; }
 
 /* Width classes */
@@ -596,9 +595,10 @@ blockquote {
 .l-page-head {
   border-bottom: 1px solid #eee;
   margin-bottom: 10px;
-  padding: 15px 0 10px 0; }
+  padding: 15px 0 10px 0;
+  text-align: center; }
 
-/* line 12, ../sass/layout/layout.scss */
+/* line 13, ../sass/layout/layout.scss */
 .l-page-footer {
   border-top: 1px solid #eee;
   text-align: center; }
@@ -985,6 +985,26 @@ table tr.highlight:hover {
 /* line 28, ../sass/modules/paginate.scss */
 .pagination li.page-current {
   padding: 4px 8px; }
+
+/*------------------------------------*\
+    POSTS
+\*------------------------------------*/
+/* line 5, ../sass/modules/posts.scss */
+.posts {
+  margin: 50px 0 0 0;
+  padding: 0; }
+
+/* line 10, ../sass/modules/posts.scss */
+.posts li {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.5em; }
+  /* line 16, ../sass/modules/posts.scss */
+  .posts li span {
+    display: block;
+    font-size: 0.6em;
+    color: #999; }
 
 /*------------------------------------*\
     STATE
