@@ -1,16 +1,16 @@
 ---
-layout: default
+layout: page
 title: About me
 permalink: /about/
 ---
 
-# About me
-
-(image: marcjenkins.jpg class: author)
+# About
 
 Plausible Thought is the blog of [Marc Jenkins](http://www.marcjenkins.co.uk). It focuses around the topics of design, development and technology.
 
-## About the Author
+## About the author
+
+![Marc Jenkins]({{ site.url }}/assets/images/marcjenkins.jpg)
 
 Marc lives with his wife, [Julie](http://twitter.com/mejulie_xx), and their labrador, Meg, in not-so-sunny Redditch, UK.
 
@@ -20,8 +20,8 @@ He can usually be found [tweeting](http://www.twitter.com/marcjenkins) about For
 
 ## Colophon
 
-Plausible Thought is powered by [Kirby](http://getkirby.com/), an excellent flat-file content management system. Posts and page are built using [Markdown](http://daringfireball.net/projects/markdown/) files.
+Plausible Thought is built using [Jekyll](http://jekyllrb.com/) and hosted on [GitHub](https://github.com/marcjenkins/plausiblethought). Posts and pages are built using [Markdown](http://daringfireball.net/projects/markdown/) files.
 
-Body text is set in FF Tisa Web Pro and headings are set in FF Dagny Web Pro. Both are served via [Typekit](https://typekit.com/).
+The site is set in Lato, served via Google Fonts.
 
 Photo by [Adam's Photography](http://www.adamsphotography.co.uk/).
