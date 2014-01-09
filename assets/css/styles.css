@@ -2,9 +2,13 @@
 /*------------------------------------*\
 	LETS KICK THINGS OFF...
 \*------------------------------------*/
-/*! normalize.css v1.1.0 | MIT License | git.io/normalize */
-/*! normalize.css v1.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
-/* line 20, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
 article,
 aside,
 details,
@@ -19,151 +23,150 @@ section,
 summary {
   display: block; }
 
-/* line 28, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
 audio,
 canvas,
 video {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1; }
+  display: inline-block; }
 
-/* line 39, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* line 46, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
-[hidden] {
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
   display: none; }
 
-/*! normalize.css v1.1.0 | Base | MIT License | git.io/normalize */
-/* line 13, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_base.scss */
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
 html {
-  font-size: 100%;
   font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+  /* 2 */ }
 
-/* line 30, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_base.scss */
-html,
-button,
-input,
-select,
-textarea {
-  font-family: sans-serif; }
-
-/* line 37, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_base.scss */
+/**
+ * Remove default margin.
+ */
 body {
   margin: 0; }
 
-/*! normalize.css v1.1.0 | Links | MIT License | git.io/normalize */
-/* line 9, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_links.scss */
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent; }
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
 a:focus {
   outline: thin dotted; }
 
-/* line 16, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_links.scss */
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
 a:active,
 a:hover {
   outline: 0; }
 
-/*! normalize.css v1.1.0 | Typography | MIT License | git.io/normalize */
-/* line 13, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 19, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-h2 {
-  font-size: 1.5em;
-  margin: 0.83em 0; }
-
-/* line 24, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-h3 {
-  font-size: 1.17em;
-  margin: 1em 0; }
-
-/* line 29, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-h4 {
-  font-size: 1em;
-  margin: 1.33em 0; }
-
-/* line 34, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-h5 {
-  font-size: 0.83em;
-  margin: 1.67em 0; }
-
-/* line 39, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-h6 {
-  font-size: 0.67em;
-  margin: 2.33em 0; }
-
-/* line 47, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/* line 54, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
 b,
 strong {
   font-weight: bold; }
 
-/* line 59, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-blockquote {
-  margin: 1em 40px; }
-
-/* line 66, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
 dfn {
   font-style: italic; }
 
-/* line 73, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Address differences between Firefox and other browsers.
+ */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
-/* line 81, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Address styling not present in IE 8/9.
+ */
 mark {
   background: #ff0;
   color: #000; }
 
-/* line 90, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-p,
-pre {
-  margin: 1em 0; }
-
-/* line 100, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
   font-size: 1em; }
 
-/* line 110, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
 pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word; }
+  white-space: pre-wrap; }
 
-/* line 118, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Set consistent quote types.
+ */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
-/* line 127, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-q {
-  quotes: none; }
-
-/* line 132, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
-q:before,
-q:after {
-  content: '';
-  content: none; }
-
-/* line 140, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
 small {
   font-size: 80%; }
 
-/* line 147, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
 sub,
 sup {
   font-size: 75%;
@@ -171,138 +174,170 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 154, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 sup {
   top: -0.5em; }
 
-/* line 158, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 11, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_lists.scss */
-dl,
-menu,
-ol,
-ul {
-  margin: 1em 0; }
-
-/* line 15, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_lists.scss */
-dd {
-  margin: 0 0 0 40px; }
-
-/* line 23, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_lists.scss */
-menu,
-ol,
-ul {
-  padding: 0 0 0 40px; }
-
-/* line 30, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_lists.scss */
-nav ul,
-nav ol {
-  list-style: none;
-  list-style-image: none; }
-
-/*! normalize.css v1.1.0 | Embedded Content | MIT License | git.io/normalize */
-/* line 9, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_embeds.scss */
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
 img {
-  border: 0;
-  -ms-interpolation-mode: bicubic; }
+  border: 0; }
 
-/* line 18, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_embeds.scss */
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
 svg:not(:root) {
   overflow: hidden; }
 
-/*! normalize.css v1.1.0 | Figures | MIT License | git.io/normalize */
-/* line 9, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_figures.scss */
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
 figure {
   margin: 0; }
 
-/*! normalize.css v1.1.0 | Forms | MIT License | git.io/normalize */
-/* line 10, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
-form {
-  margin: 0; }
-
-/* line 17, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 30, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
 legend {
   border: 0;
+  /* 1 */
   padding: 0;
-  white-space: normal;
-  *margin-left: -7px; }
+  /* 2 */ }
 
-/* line 49, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
 button,
 input,
 select,
 textarea {
   font-family: inherit;
+  /* 1 */
   font-size: 100%;
+  /* 2 */
   margin: 0;
-  vertical-align: baseline;
-  *vertical-align: middle; }
+  /* 3 */ }
 
-/* line 63, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
 button,
 input {
   line-height: normal; }
 
-/* line 73, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
 button,
 select {
   text-transform: none; }
 
-/* line 90, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+  /* 2 */
   cursor: pointer;
-  *overflow: visible; }
+  /* 3 */ }
 
-/* line 101, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * Re-set default cursor for disabled elements.
+ */
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-/* line 113, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
+  /* 1 */
   padding: 0;
-  *height: 13px;
-  *width: 13px; }
+  /* 2 */ }
 
-/* line 126, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
 input[type="search"] {
   -webkit-appearance: textfield;
+  /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  /* 2 */
   box-sizing: content-box; }
 
-/* line 137, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/* line 144, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/* line 152, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
 textarea {
   overflow: auto;
-  vertical-align: top; }
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
 
-/*! normalize.css v1.1.0 | Tables | MIT License | git.io/normalize */
-/* line 9, ../../../../../Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_tables.scss */
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -314,86 +349,70 @@ table {
 	BASE
 \*------------------------------------*/
 /* apply a natural box layout model to all elements */
-/* line 9, ../sass/base/base.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* custom text-selection colors */
-/* line 16, ../sass/base/base.scss */
 ::-moz-selection {
   background: #e1e1e1;
   text-shadow: none; }
 
-/* line 21, ../sass/base/base.scss */
 ::selection {
   background: #e1e1e1;
   text-shadow: none; }
 
 /*	j.mp/webkit-tap-highlight-color */
-/* line 27, ../sass/base/base.scss */
 a:link {
   -webkit-tap-highlight-color: #fcd700; }
 
 /* Mozilla dosen't style place holders by default */
-/* line 32, ../sass/base/base.scss */
 input:-moz-placeholder {
   color: #a9a9a9; }
 
-/* line 36, ../sass/base/base.scss */
 textarea:-moz-placeholder {
   color: #a9a9a9; }
 
-/* line 43, ../sass/base/base.scss */
 body {
   background-color: white;
   color: #333333;
   font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
-  line-height: 28px;
+  line-height: 30px;
   -webkit-font-smoothing: antialiased; }
 
-/* line 55, ../sass/base/base.scss */
 p {
   margin: 0 0 20px; }
 
-/* line 59, ../sass/base/base.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased; }
 
-/* line 65, ../sass/base/base.scss */
 h1 {
   margin: 0 0 0.67em;
   font-size: 2em; }
 
-/* line 70, ../sass/base/base.scss */
 h2 {
   margin: 0 0 0.83em;
   font-size: 1.5em; }
 
-/* line 75, ../sass/base/base.scss */
 h3 {
   margin: 0 0 1em;
   font-size: 1.17em; }
 
-/* line 80, ../sass/base/base.scss */
 h4 {
   margin: 0 0 1.33em;
   font-size: 1em; }
 
-/* line 85, ../sass/base/base.scss */
 h5 {
   margin: 0 0 1.67em;
   font-size: 0.83em; }
 
-/* line 93, ../sass/base/base.scss */
 p.lead {
   font-size: 1.17em; }
 
-/* line 97, ../sass/base/base.scss */
 a {
   color: #3a83c6;
   -webkit-transition: color 0.2s ease-in-out;
@@ -403,11 +422,9 @@ a {
   transition: color 0.2s ease-in-out;
   text-decoration: none; }
 
-/* line 107, ../sass/base/base.scss */
 a:hover {
   color: #1d4264; }
 
-/* line 111, ../sass/base/base.scss */
 blockquote {
   margin: 0;
   padding-left: 10px;
@@ -425,180 +442,143 @@ blockquote {
  * https://github.com/cobyism/gridism
  */
 /* Set up some rules to govern the grid */
-/* line 12, ../sass/layout/grid.scss */
 .l-grid {
   display: block;
   clear: both; }
 
-/* line 17, ../sass/layout/grid.scss */
 .l-grid .l-unit {
   float: left;
   width: 100%;
   padding: 10px; }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters.l- */
-/* line 24, ../sass/layout/grid.scss */
 .l-grid .l-unit:first-child {
   padding-left: 20px; }
 
-/* line 28, ../sass/layout/grid.scss */
 .l-grid .l-unit:last-child {
   padding-right: 20px; }
 
 /* Nested grids already have padding though, so let’s nuke it */
-/* line 33, ../sass/layout/grid.scss */
 .l-unit .l-unit:first-child {
   padding-left: 0; }
 
-/* line 37, ../sass/layout/grid.scss */
 .l-unit .l-unit:last-child {
   padding-right: 0; }
 
-/* line 41, ../sass/layout/grid.scss */
 .l-unit .l-grid:first-child > .l-unit {
   padding-top: 0; }
 
-/* line 45, ../sass/layout/grid.scss */
 .l-unit .l-grid:last-child > .l-unit {
   padding-bottom: 0; }
 
 /* Let people nuke the gutters/padding completely in a couple of ways */
-/* line 51, ../sass/layout/grid.scss */
 .l-no-gutters .l-unit,
 .l-unit.l-no-gutters {
   padding: 0 !important; }
 
 /* Wrapping at a maximum width is optional */
-/* line 57, ../sass/layout/grid.scss */
 .l-wrap .l-grid,
 .l-grid.l-wrap {
   max-width: 680px;
   margin: 0 auto; }
 
 /* Width classes */
-/* line 63, ../sass/layout/grid.scss */
 .l-grid .l-whole {
   width: 100%; }
 
-/* line 67, ../sass/layout/grid.scss */
 .l-grid .l-half {
   width: 50%; }
 
-/* line 71, ../sass/layout/grid.scss */
 .l-grid .l-one-third {
   width: 33.3332%; }
 
-/* line 75, ../sass/layout/grid.scss */
 .l-grid .l-two-thirds {
   width: 66.6665%; }
 
-/* line 79, ../sass/layout/grid.scss */
 .l-grid .l-one-quarter {
   width: 25%; }
 
-/* line 83, ../sass/layout/grid.scss */
 .l-grid .l-three-quarters {
   width: 75%; }
 
-/* line 87, ../sass/layout/grid.scss */
 .l-grid .l-one-fifth {
   width: 20%; }
 
-/* line 91, ../sass/layout/grid.scss */
 .l-grid .l-two-fifths {
   width: 40%; }
 
-/* line 95, ../sass/layout/grid.scss */
 .l-grid .l-three-fifths {
   width: 60%; }
 
-/* line 99, ../sass/layout/grid.scss */
 .l-grid .l-four-fifths {
   width: 80%; }
 
-/* line 103, ../sass/layout/grid.scss */
 .l-grid .l-golden-small {
   width: 38.2716%; }
 
-/* line 107, ../sass/layout/grid.scss */
 .l-grid .l-golden-large {
   width: 61.7283%; }
 
 /* Clearfix after every .l-grid */
-/* line 112, ../sass/layout/grid.scss */
 .l-grid {
   *zoom: 1; }
 
-/* line 115, ../sass/layout/grid.scss */
 .l-grid:before, .l-grid:after {
   display: table;
   content: "";
   line-height: 0; }
 
-/* line 120, ../sass/layout/grid.scss */
 .l-grid:after {
   clear: both; }
 
 /* Utility classes */
-/* line 125, ../sass/layout/grid.scss */
 .l-align-center {
   text-align: center; }
 
-/* line 129, ../sass/layout/grid.scss */
 .l-align-left {
   text-align: left; }
 
-/* line 133, ../sass/layout/grid.scss */
 .l-align-right {
   text-align: right; }
 
-/* line 137, ../sass/layout/grid.scss */
 .l-pull-left {
   float: left; }
 
-/* line 141, ../sass/layout/grid.scss */
 .l-pull-right {
   float: right; }
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
   /* Stack anything that isn’t full-width on smaller screens */
-  /* line 148, ../sass/layout/grid.scss */
   .l-grid .l-unit {
     width: 100% !important;
     padding-left: 20px;
     padding-right: 20px; }
 
-  /* line 153, ../sass/layout/grid.scss */
   .l-unit .l-grid .l-unit {
     padding-left: 0px;
     padding-right: 0px; }
 
   /* Sometimes, you just want to be different on small screens */
-  /* line 159, ../sass/layout/grid.scss */
   .l-center-on-mobiles {
     text-align: center !important; }
 
-  /* line 162, ../sass/layout/grid.scss */
   .l-hide-on-mobiles {
     display: none !important; } }
 /* Expand the wrap a bit further on larger screens */
 @media screen and (min-width: 1180px) {
-  /* line 169, ../sass/layout/grid.scss */
   .l-wider .l-grid {
     max-width: 1180px;
     margin: 0 auto; } }
 /*------------------------------------*\
     LAYOUT
 \*------------------------------------*/
-/* line 6, ../sass/layout/layout.scss */
 .l-page-head {
   border-bottom: 1px solid #eee;
   margin-bottom: 10px;
   padding: 15px 0 10px 0;
   text-align: center; }
 
-/* line 13, ../sass/layout/layout.scss */
 .l-page-footer {
   border-top: 1px solid #eee;
   text-align: center; }
@@ -606,7 +586,6 @@ blockquote {
 /*------------------------------------*\
     ALERTS
 \*------------------------------------*/
-/* line 6, ../sass/modules/alerts.scss */
 .alert {
   margin: 0 0 12px;
   padding: 10px;
@@ -615,40 +594,32 @@ blockquote {
   color: #fff;
   -webkit-font-smoothing: antialiased; }
 
-/* line 15, ../sass/modules/alerts.scss */
 .alert-info {
   background: #0088ce; }
 
-/* line 19, ../sass/modules/alerts.scss */
 .alert-success {
   background: #478743; }
 
-/* line 23, ../sass/modules/alerts.scss */
 .alert-warning {
   background: #fa9500; }
 
 /*------------------------------------*\
     BREADCRUMBS
 \*------------------------------------*/
-/* line 6, ../sass/modules/breadcrumbs.scss */
 .breadcrumb {
   font-size: 0.8em;
   margin-bottom: 10px; }
 
-/* line 11, ../sass/modules/breadcrumbs.scss */
 .breadcrumb a {
   margin: 0 5px;
   text-decoration: none;
   color: #999; }
-  /* line 16, ../sass/modules/breadcrumbs.scss */
   .breadcrumb a:first-child {
     margin-left: 0; }
 
-/* line 21, ../sass/modules/breadcrumbs.scss */
 .breadcrumb a:hover {
   color: #333; }
 
-/* line 25, ../sass/modules/breadcrumbs.scss */
 .breadcrumb strong {
   margin-left: 5px;
   font-weight: bold;
@@ -657,7 +628,6 @@ blockquote {
 /*------------------------------------*\
     BUTTONS
 \*------------------------------------*/
-/* line 6, ../sass/modules/buttons.scss */
 .btn {
   display: inline-block;
   margin: 0 0 12px;
@@ -667,25 +637,20 @@ blockquote {
   color: white;
   text-decoration: none;
   -webkit-font-smoothing: antialiased; }
-  /* line 16, ../sass/modules/buttons.scss */
   .btn:hover {
     background: #00669b;
     color: #fff; }
-  /* line 21, ../sass/modules/buttons.scss */
   .btn:active {
     -webkit-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.7);
     box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.7); }
 
-/* line 27, ../sass/modules/buttons.scss */
 .btn.btn-disabled {
   background: #999999;
   cursor: default;
   pointer-events: none; }
 
-/* line 33, ../sass/modules/buttons.scss */
 .btn.btn-important {
   background: #ba4d48; }
-  /* line 36, ../sass/modules/buttons.scss */
   .btn.btn-important:hover {
     background: #843532; }
 
@@ -698,14 +663,12 @@ blockquote {
 /*------------------------------------*\
     .formS
 \*------------------------------------*/
-/* line 8, ../sass/modules/forms.scss */
 .form fieldset {
   margin: 10px 0;
   padding: 5px;
   border: 0;
   font-size: 0.9em; }
 
-/* line 19, ../sass/modules/forms.scss */
 .form input[type="text"],
 .form textarea,
 .form input[type="search"],
@@ -716,7 +679,6 @@ blockquote {
   border: 1px solid #ddd;
   border-radius: 4px;
   background: #f9f9f9; }
-  /* line 26, ../sass/modules/forms.scss */
   .form input[type="text"]:hover, .form input[type="text"]:focus,
   .form textarea:hover,
   .form textarea:focus,
@@ -729,7 +691,6 @@ blockquote {
     outline: 0;
     background: #ddd; }
 
-/* line 32, ../sass/modules/forms.scss */
 .form input[type="submit"] {
   padding: 8px 10px;
   border: none;
@@ -737,47 +698,38 @@ blockquote {
   background: #666;
   color: #fff; }
 
-/* line 40, ../sass/modules/forms.scss */
 .form label {
   float: left;
   margin: 4px 0 5px 0;
   width: 20%;
   font-weight: bold; }
 
-/* line 47, ../sass/modules/forms.scss */
 .form-radio ul {
   margin: 0 0 0 20%;
   padding: 0; }
-  /* line 51, ../sass/modules/forms.scss */
   .form-radio ul li {
     list-style: none; }
 
-/* line 56, ../sass/modules/forms.scss */
 .form-radio ul li label {
   display: inline;
   float: none;
   width: auto;
   font-weight: normal; }
 
-/* line 63, ../sass/modules/forms.scss */
 .form-checkbox label {
   width: 100%; }
 
-/* line 70, ../sass/modules/forms.scss */
 .form-contact {
   margin-top: 50px; }
 
-/* line 74, ../sass/modules/forms.scss */
 .form-contact fieldset {
   padding: 0 0 10px 0;
   border-bottom: 1px solid #eee; }
 
 @media screen and (max-width: 700px) {
-  /* line 83, ../sass/modules/forms.scss */
   .form label {
     float: none; }
 
-  /* line 91, ../sass/modules/forms.scss */
   .form input[type="text"],
   .form textarea,
   .form input[type="search"],
@@ -785,46 +737,37 @@ blockquote {
   .form input[type="email"] {
     width: 100%; }
 
-  /* line 95, ../sass/modules/forms.scss */
   .form-radio ul {
     margin: 0; } }
 /*------------------------------------*\
     NAVIGATION
 \*------------------------------------*/
-/* line 6, ../sass/modules/nav.scss */
 .nav li {
   list-style: none; }
 
-/* line 10, ../sass/modules/nav.scss */
 .nav ul {
   margin: 0;
   padding: 0; }
 
-/* line 18, ../sass/modules/nav.scss */
 .nav-bar li {
   display: inline-block; }
 
-/* line 22, ../sass/modules/nav.scss */
 .nav-bar li a {
   margin-right: 10px;
   border-bottom: 1px solid #eee;
   color: #333;
   text-decoration: none; }
-  /* line 28, ../sass/modules/nav.scss */
   .nav-bar li a:hover {
     border-bottom: 1px solid #666;
     color: #666; }
 
-/* line 37, ../sass/modules/nav.scss */
 .nav-list li {
   margin-top: 2px; }
 
-/* line 41, ../sass/modules/nav.scss */
 .nav-list li a {
   border-bottom: 1px solid #eee;
   color: #333;
   text-decoration: none; }
-  /* line 46, ../sass/modules/nav.scss */
   .nav-list li a:hover {
     border-bottom: 1px solid #666;
     color: #666; }
@@ -832,7 +775,6 @@ blockquote {
 /*------------------------------------*\
     TABLES
 \*------------------------------------*/
-/* line 7, ../sass/modules/tables.scss */
 table th,
 table td {
   padding: 8px 16px;
@@ -840,28 +782,22 @@ table td {
   text-align: left;
   -webkit-font-smoothing: antialiased; }
 
-/* line 14, ../sass/modules/tables.scss */
 table th {
   border-width: 2px; }
 
-/* line 18, ../sass/modules/tables.scss */
 table tr:last-child td {
   border-bottom: none; }
 
-/* line 22, ../sass/modules/tables.scss */
 table tr:nth-child(even) {
   background: #eee; }
 
-/* line 26, ../sass/modules/tables.scss */
 table tbody tr:hover {
   background: #f9f9f9; }
 
-/* line 30, ../sass/modules/tables.scss */
 table tr.highlight {
   background: #0088ce;
   color: #fff; }
 
-/* line 35, ../sass/modules/tables.scss */
 table tr.highlight:hover {
   background: #1cb2ff;
   color: #fff; }
@@ -869,142 +805,118 @@ table tr.highlight:hover {
 /*------------------------------------*\
     SOCIAL ICONS
 \*------------------------------------*/
-/* line 6, ../sass/modules/social-icons.scss */
 .nav-social {
   margin: 0 0 20px 0;
   padding: 0; }
 
-/* line 11, ../sass/modules/social-icons.scss */
 .nav-social li {
   display: inline-block;
   text-indent: -9999px; }
 
-/* line 16, ../sass/modules/social-icons.scss */
 .nav-social li a {
   display: block;
   width: 40px;
   height: 40px;
   background: url(../images/social-sprite.png) no-repeat; }
 
-/* line 23, ../sass/modules/social-icons.scss */
 .nav-social li a:hover {
   opacity: 0.5; }
 
-/* line 27, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-rss a {
   background-position: 0 0; }
 
-/* line 31, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-twitter a {
   background-position: 0 -40px; }
 
-/* line 35, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-facebook a {
   background-position: 0 -80px; }
 
-/* line 39, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-googleplus a {
   background-position: 0 -120px; }
 
-/* line 43, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-linkedin a {
   background-position: 0 -160px; }
 
-/* line 47, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-dribbble a {
   background-position: 0 -200px; }
 
-/* line 51, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-flickr a {
   background-position: 0 -240px; }
 
-/* line 55, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-youtube a {
   background-position: 0 -280px; }
 
-/* line 59, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-vimeo a {
   background-position: 0 -320px; }
 
-/* line 63, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-tumblr a {
   background-position: 0 -360px; }
 
-/* line 67, ../sass/modules/social-icons.scss */
 .nav-social li.nav-social-skype a {
   background-position: 0 -400px; }
 
 /*------------------------------------*\
     PAGER
 \*------------------------------------*/
-/* line 6, ../sass/modules/pager.scss */
 .pager {
   text-align: center;
   font-size: 0.8em; }
 
-/* line 11, ../sass/modules/pager.scss */
 .pager li {
   display: inline;
   list-style: none; }
 
-/* line 16, ../sass/modules/pager.scss */
 .pager li a {
   border: 1px solid #ddd;
   padding: 4px 8px;
   text-decoration: none;
   border-radius: 4px;
   color: #333; }
-  /* line 23, ../sass/modules/pager.scss */
   .pager li a:hover {
     background: #ddd; }
 
 /*------------------------------------*\
     PAGINATE
 \*------------------------------------*/
-/* line 6, ../sass/modules/paginate.scss */
 .pagination {
   text-align: center;
   font-size: 0.8em; }
 
-/* line 11, ../sass/modules/paginate.scss */
 .pagination li {
   display: inline;
   list-style: none; }
 
-/* line 16, ../sass/modules/paginate.scss */
 .pagination li a {
   border: 1px solid #ddd;
   padding: 4px 8px;
   text-decoration: none;
   border-radius: 4px;
   color: #333; }
-  /* line 23, ../sass/modules/paginate.scss */
   .pagination li a:hover {
     background: #ddd; }
 
-/* line 28, ../sass/modules/paginate.scss */
 .pagination li.page-current {
   padding: 4px 8px; }
 
 /*------------------------------------*\
     POSTS
 \*------------------------------------*/
-/* line 5, ../sass/modules/posts.scss */
 .posts {
   margin: 50px 0 0 0;
   padding: 0; }
 
-/* line 10, ../sass/modules/posts.scss */
 .posts li {
   list-style: none;
   text-align: center;
   margin-bottom: 40px;
   font-size: 1.5em; }
-  /* line 16, ../sass/modules/posts.scss */
   .posts li span {
     display: block;
     font-size: 0.6em;
     color: #999; }
+
+article p img {
+  max-width: 100%; }
 
 /*------------------------------------*\
     STATE

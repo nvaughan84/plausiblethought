@@ -2,15 +2,10 @@
 	LETS KICK THINGS OFF...
 \*------------------------------------*/
 
-// compass
-// -------------------------
-
-@import "compass";
-@import "normalize";
-
 // base styles
 // -------------------------
 
+@import "base/normalize.scss";
 @import "base/settings.scss";
 @import "base/base.scss";
 @import "base/mixins.scss";

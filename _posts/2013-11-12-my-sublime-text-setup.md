@@ -17,7 +17,7 @@ I use the [Soda theme][15] which makes <abbr title="Sublime Text">ST</abbr> look
 
 [Base 16 tomorrow][4] is my colour scheme of choice with the [Ubunto Mono][22] font face at size 16. I also turn off the minimap (View > Hide Minimap).
 
-(image: sublime-text.png title: Sublime Text with the Soda theme and Base 16 tomorrow colour scheme)
+![Sublime Text with the Soda theme and Base 16 tomorrow colour scheme]({{ site.url }}/assets/images/posts/sublime-text.png)
 
 I’ve replaced the Sublime Text icon with [this excellent icon][1] by Elliot Jackson (found this via  Alex Maccaw, on his excellent post [Setting up Sublime Text 2][2]).
 
