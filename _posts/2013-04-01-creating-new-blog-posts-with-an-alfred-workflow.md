@@ -10,7 +10,7 @@ I’ve created a Workflow that makes creating a new blog post quick and easy. I 
 * create a new directory with a name generated from the slug and blog post number
 * create a post.txt file within the directory created above, populated with my blog post structure
 
-(image: alfred-blog-post-workflow.png title: My Alfred blog post workflow)
+![My Alfred blog post workflow]({{ site.url }}/assets/images/posts/alfred-blog-post-workflow.png)
 
 It works by running the following bash script:
 

@@ -21,7 +21,7 @@ I use the [Soda theme][15] which makes <abbr title="Sublime Text">ST</abbr> look
 
 I’ve replaced the Sublime Text icon with [this excellent icon][1] by Elliot Jackson (found this via  Alex Maccaw, on his excellent post [Setting up Sublime Text 2][2]).
 
-(image: sublime-text-icon.png title: Sublime Text Icon)
+![Sublime Text Icon]({{ site.url }}/assets/images/posts/sublime-text-icon.png)
 
 Changing the icon is easy. Download the [.icns file][3] and then in terminal type the following:
 
@@ -50,21 +50,21 @@ Here’s what I currently have installed:
 
 I use the built in quick switch project tool to flick between projects. It’s fast and remembers where you left off. If you’re in and out of projects all day, you’ll love this feature. Hit <kbd>Cmd</kbd> + <kbd>Ctrl</kbd> + <kbd>P</kbd> and the Switch Project dialogue will appear. Just type the first few letters of your project until it highlights, then hit enter.
 
-(image: switch-project.png title: Sublime Text Switch Project Menu)
+![Sublime Text Switch Project Menu]({{ site.url }}/assets/images/posts/switch-project.png)
 
 ## Goto anything
 
 Perhaps one of my favourite Sublime Text features is the ‘goto anything’ feature. Hit  <kbd>Cmd</kbd> + <kbd>P</kbd> and it’ll reveal a list of files. Typing a name will show a live list of results below.
 
-(image: sublime-text-goto-anything.png title: Sublime Text goto anything menu)
+![Sublime Text goto anything menu]({{ site.url }}/assets/images/posts/sublime-text-goto-anything.png)
 
 Typing the file name followed by a hash will show a list of functions. 
 
-(image: sublime-text-hash.png title: Sublime Text goto anything menu)
+![Sublime Text goto anything menu]({{ site.url }}/assets/images/posts/sublime-text-hash.png)
 
 Typing the file name followed by a colon and a number will take you to that line in the file.
 
-(image: sublime-text-colon.png title: Sublime Text goto anything menu)
+![Sublime Text goto anything menu]({{ site.url }}/assets/images/posts/sublime-text-colon.png)
 
 ## Alfred workflow
 

@@ -16,4 +16,4 @@ When you open it you should see a fully functional iPhone. Click the Safari tab 
 
 Use Cmd and left or right arrows to change orientation. To change device, click Hardware > Device > iPad. It’s that easy!
 
-(image: testing-on-ios.png)
+![Testing on iOS]({{ site.url }}/assets/images/posts/testing-on-ios.png)

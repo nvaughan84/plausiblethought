@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How and why can we make a ruckus"
+title:  "How can we make a ruckus"
 date:   2013-08-12 15:33:59
 ---
 Seth Godin:

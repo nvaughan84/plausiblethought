@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello world!"
+title:  "Hello world"
 date:   2011-12-17 20:12:00
 categories: blog
 ---

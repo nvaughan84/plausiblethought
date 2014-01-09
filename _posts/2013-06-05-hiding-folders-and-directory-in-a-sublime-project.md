@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Creating new blog posts with an Alfred Workflow"
+title:  "Hiding files and directories in a Sublime project"
 date:   2013-06-05 20:33:56
 ---
 I spend a lot of my time developing WordPress sites in Sublime Text 2. WordPress comes with a bunch of files and directories that I rarely need to touch (wp-includes, wp-admin, wp-cron.php, etc).
 
 There is an easy way to hide these files from the Sublime Text sidebar, as illustrated below (left: default, right: hidden files).
 
-(image: sublime-sidebar.png)
+![My Alfred blog post workflow]({{ site.url }}/assets/images/posts/sublime-sidebar.png)
 
 To hide files from the sidebar, you’ll need to:
 
@@ -50,4 +50,4 @@ To hide files from the sidebar, you’ll need to:
 
 Of course, you can add and remove directories or files as you require and it doesn’t have to apply to WordPress: you can use this method to hide any directories or files you want.
 
-I’ve turned this into a basic TextExpander snippet. Simply copy the path to the clipboard, then type “;sublwp” and you’re done. You can  (file:SublimeText.zip text: download the snippet here).
+I’ve turned this into a basic TextExpander snippet. Simply copy the path to the clipboard, then type “;sublwp” and you’re done. You can [download the snippet here](/assets/files/SublimeText.zip).

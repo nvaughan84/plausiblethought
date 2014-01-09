@@ -7,7 +7,7 @@ I’m a recent convert to using the Terminal. I use it all day, every day. From 
 
 I recently found a great tool called [iTerm2](http://www.iterm2.com/). It allows you to assign a hotkey which then drops a Terminal window down, as shown below. It allows me to quickly commit and push changes and get straight back to work.
 
-(image: iterm2.png)
+![iTerm2 visor view]({{ site.url }}/assets/images/posts/iterm2.png)
 
 It’s easy to setup, just follow these steps:
 
@@ -23,4 +23,4 @@ It’s easy to setup, just follow these steps:
 
 My settings are below for reference:
 
-(image: iterm2-settings.png)
+![iTerm2 settings]({{ site.url }}/assets/images/posts/iterm2-settings.png)

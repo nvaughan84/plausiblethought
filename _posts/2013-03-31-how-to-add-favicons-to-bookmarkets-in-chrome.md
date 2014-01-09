@@ -5,17 +5,17 @@ date:   2013-03-31 09:21:41
 ---
 There are several bookmarklets that I use everyday: Instapaper, Gimmebar and Pinboard. One thing that always bugged me about bookmarklets in Chrome is that they don’t have a favicon. By default, my bookmarks bar looked like this:
 
-(image: chrome-bookmarks-1.png title: Bookmarklets by default in Chrome)
+![Bookmarklets by default in Chrome]({{ site.url }}/assets/images/posts/chrome-bookmarks-1.png)
 
 I’ve discovered a way to add favicons to bookmarklets, so now my bookmarks bar looks like this:
 
-(image: chrome-bookmarks-2.png title: Bookmarklets with favicons in Chrome)
+![Bookmarklets with favicons in Chrome]({{ site.url }}/assets/images/posts/chrome-bookmarks-2.png)
 
 (Note: In the screenshot above, I’ve deleted the link name to make it look neater.)
 
 The first thing you need to do is find a favicon. The easiest way to do this is visit the site (for example, Instapaper.com) and add it to your bookmarks next to the bookmarklet. You should then have the bookmarked site, followed by the relevant bookmarklet:
 
-(image: chrome-bookmarks-3.png title: Bookmarks bar in Chrome)
+![Bookmarks bar in Chrome]({{ site.url }}/assets/images/posts/chrome-bookmarks-3.png)
 
 Then, while in Chrome, go to Bookmarks > Bookmark Manager. Now export your bookmarks by clicking Organize > Export Bookmarks to HTML File. Save the file to your Desktop.
 

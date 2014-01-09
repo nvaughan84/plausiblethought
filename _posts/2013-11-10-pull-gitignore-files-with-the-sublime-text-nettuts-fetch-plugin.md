@@ -21,4 +21,4 @@ Next, install the [Nettuts-Fetch](https://github.com/weslly/Nettuts-Fetch) plugi
 
 Change the names and repository paths as required. Next, create a new file and then open the command palette and select ‘Fetch: File’. You can then select the <code>.gitignore</code> file you require (as shown below). Save the file as <code>.gitignore</code> and you’re done.
 
-(image: sublime-fetch.png title: Sublime Text Fetch Plugin)
+![Sublime Text Fetch Plugin]({{ site.url }}/assets/images/posts/sublime-fetch.png)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why you should pay too much for things"
-date:   2012-06-14 10:34:00
+date:   2012-07-14 10:34:00
 categories: blog
 ---
 Allen Tucker:
