@@ -376,9 +376,9 @@ textarea:-moz-placeholder {
 
 body {
   background-color: white;
-  color: #333333;
+  color: #444444;
   font-size: 20px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 30px;
   -webkit-font-smoothing: antialiased; }
 

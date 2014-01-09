@@ -5,7 +5,7 @@
 
 // Typography
 // -------------------------
-$sans: 'Source Sans Pro', sans-serif;
+$sans: 'Lato', sans-serif;
 $serif: Georgia, Times, "Times New Roman", serif;
 $altFont: Monaco, Menlo, Consolas, "Courier New", monospace;
 $baseFontFamily: $sans;
@@ -16,7 +16,7 @@ $baseLineHeight: 30px;
 // Colours
 // -------------------------
 $pageBackground: #fff;
-$textColour: #333;
+$textColour: #444;
 $linkColour: #3A83C6;
 $linkColourHover: darken($linkColour, 25%);
 
