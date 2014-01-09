@@ -1,0 +1,133 @@
+/*------------------------------------*\
+    POST
+\*------------------------------------*/
+
+.all-posts {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+		border-bottom: 1px solid #EEEEEE;
+		padding: 1em 0 0.25em 0;
+		font-size: 1.2em;
+	}
+
+	.post-date {
+		display:block;
+		color: #999;
+		font-size: 0.65em;
+		font-weight: 300;
+
+	}
+}
+
+.posts {
+	margin: 50px 0 0 0;
+	padding: 0;
+}
+
+.posts li {
+	list-style: none;
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 1.5em;
+
+	span {
+		display: block;
+		font-size:  0.6em;
+		color: #999;
+	}
+}
+
+kbd {
+	background-color: #f3f3f3;
+	border: 1px solid #ccc;
+	padding: .1em .6em;
+	font-size: .9em;
+	text-shadow: 0 1px 0 #fff;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 1px #fff inset;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 1px #fff inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 1px #fff inset;
+	white-space: nowrap;
+}
+
+article  img {
+	max-width: 100%;
+	margin: 0 auto 20px auto;
+	display: block;
+}
+
+article {
+	margin-top: 60px;
+
+	p, h1, h2, h3, h4, time {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	blockquote {
+		margin: 2em 0;
+		font-style: italic;
+		font-size: 1.2em;
+		color: #999;
+
+		span {
+			display: block;
+			color: #666;
+		}
+	}
+
+	blockquote p {
+		width: 100%;
+	}
+
+	ul {
+		display: block;
+		width: 80%;
+		margin: 0 auto 1.5em auto;
+		padding: 0;
+	}
+
+	time {
+		display: block;
+		color: #999;
+		margin: 0 auto 0.5em auto;
+	}
+
+	@media screen and (max-width: 568px) {
+		p, h1, h2, h3, h4, time {
+			width: 95%;
+			margin-left: auto;
+			margin-right: auto;
+		}	
+	}
+}
+
+pre {
+	overflow: auto;
+	background: #eee;
+	padding: 0 20px;
+	margin: 0 auto 1.5em auto;
+	font-size: 1.6em;
+	width: 80%;
+}
+
+code {
+	padding: 0;
+	margin: 0;
+	color: #666;
+}
+
+pre, code {
+	font-family: "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+	font-size: .8em;
+}
+
+.gist {
+	font-size: 0.7em;
+	margin-bottom: 2em;
+	line-height: 1.6em;
+}

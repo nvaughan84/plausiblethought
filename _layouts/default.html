@@ -19,31 +19,33 @@
 <header class="l-page-head">
 	<div class="l-grid l-wrap">
 		<div class="l-unit l-whole">
-			<h1><a href="{{ site.baseurl}}/">Plausible Thought</a></h1>
-			<nav class="nav nav-bar">
-				<ul>
-					<li><a href="{{ site.baseurl}}/about/">About</a></li>
-					<li><a href="{{ site.baseurl}}/contact/">Contact</a></li>
-				</ul>
+			<h1 class="page-title"><a href="{{ site.baseurl}}/">Plausible Thought</a></h1>
+			<nav class="page-nav">
+			<a href="{{ site.baseurl}}/about/">About</a> / <a href="{{ site.baseurl}}/feed/">Subscribe</a> / <a href="{{ site.baseurl}}/contact/">Get in touch</a>
 			</nav>
 		</div>
 	</div>
 </header>
 
 <div class="l-grid l-wrap">
-	<article class="l-unit l-whole">
+	<div class="l-unit l-whole">
 		{{ content }}
-	</article>
+	</div>
 </div>
 
 <footer class="l-page-footer">
 	<div class="l-grid l-wrap">
 		<div class="l-unit l-whole">
-			&copy; 2013. Origin.
+			Read about the <a href="{{ site.baseurl}}/about/">author</a>, <a href="{{ site.baseurl}}/feed/">subscribe</a> or <a href="{{ site.baseurl}}/contact/">get in touch</a>.
 		</div>
 	</div>
 </footer><!-- .l-page-footer -->
 
 </body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$("p:has(img)").contents().unwrap();
+</script>
 
 </html>

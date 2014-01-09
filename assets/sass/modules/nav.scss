@@ -3,48 +3,46 @@
 \*------------------------------------*/
 
 
-.nav li {
-	list-style: none;
-}
+.page-nav {
+	color: #999;
 
-.nav ul {
-	margin: 0;
-	padding: 0;
-}
-
-// Nav bar
-// -------------------------
-
-.nav-bar li {
-	display: inline-block;
-}
-
-.nav-bar li a {
-	margin-right: 10px;
-	border-bottom: 1px solid #eee;
-	color: #333;
-	text-decoration: none;
-
-	&:hover {
-		border-bottom: 1px solid #666;
-		color: #666;
+	a {
+		padding: 0 5px;
 	}
 }
 
-// Nav list
+// Post nav
 // -------------------------
 
-.nav-list li {
-	margin-top: 2px;
-}
+.post-nav {
+	margin: 4em 0;
 
-.nav-list li a {
-	border-bottom: 1px solid #eee;
-	color: #333;
-	text-decoration: none;
+	a {
+		display: block;
+		width: 50%;
+		color: $linkColour;
+		padding: 5px 10px;
+		font-size: 0.75em;
 
-	&:hover {
-		border-bottom: 1px solid #666;
-		color: #666;
+		&:hover {
+			background: #eee;
+		}
+	}
+
+	a[rel~="next"] {
+		text-align: right;
+		float: right;
+	}
+
+	a[rel~="prev"] {
+		float: left;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	span {
+		font-weight: bold;
 	}
 }
