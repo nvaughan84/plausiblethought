@@ -1,0 +1,113 @@
+/*------------------------------------*\
+	BASE
+\*------------------------------------*/
+
+// Global
+// -------------------------
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* custom text-selection colors */
+::-moz-selection{
+	background: #e1e1e1;
+	text-shadow: none;
+}
+
+::selection {
+	background: #e1e1e1;
+	text-shadow: none;
+} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {
+	-webkit-tap-highlight-color: #fcd700;
+} 
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { 
+	color:#a9a9a9;
+}
+
+textarea:-moz-placeholder {
+	color:#a9a9a9;
+}
+
+// Body
+// -------------------------
+
+body {
+	background-color: $pageBackground;
+	color: $textColour;
+	font-size: $baseFontSize;
+	font-family: $baseFontFamily;
+	line-height: $baseLineHeight;
+}
+
+// Typography
+// -------------------------
+
+p {
+	margin: 0 0 $baseFontSize;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1em;
+	text-rendering: optimizelegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	margin: 0 0 0.67em;
+	font-size: 2em;
+}
+
+h2 {
+	margin: 0 0 0.83em;
+	font-size: 1.5em;
+}
+
+h3 {
+	margin: 0 0 1em;
+	font-size: 1.17em;
+}
+
+h4 {
+	margin: 0 0 1.33em;
+	font-size: 1em;
+}
+
+h5 {
+	margin: 0 0 1.67em;
+	font-size: 0.83em;
+}
+
+// Type
+// -------------------------
+
+p.lead {
+	font-size: 1.17em;
+}
+
+a {
+	color: $linkColour;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+	color: $linkColourHover;
+}
+
+blockquote {
+	margin: 0;
+	padding-left: 10px;
+	border-left: 10px solid #eee;
+}

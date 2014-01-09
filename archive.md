@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Plausible Thought
+title: Archive
+permalink: /archive/
 ---
+
+# Archive
 
 <div id="home">
   <h1>Blog Posts</h1>

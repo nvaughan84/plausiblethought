@@ -1,45 +1,81 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        <meta name="robots" content="noindex, nofollow">
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Insert a wonderfully well-crafted description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, nofollow">
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="{{ site.baseurl}}/assets/css/styles.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl}}/css/syntax.css">
+<body>
+	
+<header class="l-page-head">
+	<div class="l-grid l-wrap">
+		<div class="l-unit l-whole">
+			<h1><a href="/">Plausible Thought</a></h1>
+			<nav class="nav nav-bar">
+				<ul>
+					<li><a href="/about/">About</a></li>
+					<li><a href="/archive/">Archive</a></li>
+					<li><a href="/contact/">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl}}/css/main.css">
+<div class="l-grid l-wrap">
+	<article class="l-unit l-whole">
+		{{ content }}
+	</article>
+</div>
 
-    </head>
-    <body>
+<footer class="l-page-footer">
+	<div class="l-grid l-wrap">
+		<div class="l-unit l-whole">
+			&copy; 2013. Origin.
+		</div>
+	</div>
+</footer><!-- .l-page-footer -->
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
 
-          {{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Marc Jenkins<br />
-                Frontend Developer<br />
-                marc@plausiblethought.net
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/marcjenkins</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/marcjenkins</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+</body>
 
-    </body>
+<!--
+		<body>
+
+				<div class="site">
+					<div class="header">
+						<h1 class="title"><a href="/">{{ site.name }}</a></h1>
+						<a class="extra" href="/">home</a>
+					</div>
+
+					{{ content }}
+
+					<div class="footer">
+						<div class="contact">
+							<p>
+								Marc Jenkins<br />
+								Frontend Developer<br />
+								marc@plausiblethought.net
+							</p>
+						</div>
+						<div class="contact">
+							<p>
+								<a href="https://github.com/yourusername">github.com/marcjenkins</a><br />
+								<a href="https://twitter.com/yourusername">twitter.com/marcjenkins</a><br />
+							</p>
+						</div>
+					</div>
+				</div>
+
+		</body>
+-->
 </html>
