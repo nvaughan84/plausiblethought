@@ -11,14 +11,14 @@ layout: default
 {% if page.previous.url %}
 <nav class="post-nav">
 	{% if page.next.url %}			
-	<a rel="next" href="{{ page.next.url }}">
+	<a rel="next" href="{{ site.baseurl}}{{ page.next.url }}">
 		<span>Next Post</span>
-		<p>{{ site.baseurl}}{{page.next.title}}</p>
+		<p>{{page.next.title}}</p>
 	</a>
 	{% endif %}
-	<a rel="prev" href="{{ page.previous.url }}">
+	<a rel="prev" href="{{ site.baseurl}}{{ page.previous.url }}">
 		<span>Previous Post</span>
-		<p>{{ site.baseurl}}{{page.previous.title}}</p>
+		<p>{{page.previous.title}}</p>
 	</a>
 </nav>
 {% endif %}
