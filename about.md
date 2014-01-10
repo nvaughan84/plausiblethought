@@ -10,7 +10,7 @@ Plausible Thought is the blog of [Marc Jenkins](http://www.marcjenkins.co.uk). I
 
 ## About the author
 
-![Marc Jenkins]({{ site.url }}/assets/images/marcjenkins.jpg)
+![Marc Jenkins](../assets/images/marcjenkins.jpg)
 
 Marc lives with his wife, [Julie](http://twitter.com/mejulie_xx), and their labrador, Meg, in not-so-sunny Redditch, UK.
 

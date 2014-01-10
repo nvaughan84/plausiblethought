@@ -21,7 +21,7 @@ I use the [Soda theme][15] which makes <abbr title="Sublime Text">ST</abbr> look
 
 I’ve replaced the Sublime Text icon with [this excellent icon][1] by Elliot Jackson (found this via  Alex Maccaw, on his excellent post [Setting up Sublime Text 2][2]).
 
-![Sublime Text Icon]({{ site.url }}/assets/images/posts/sublime-text-icon.png)
+![Sublime Text Icon](../assets/images/posts/sublime-text-icon.png)
 
 Changing the icon is easy. Download the [.icns file][3] and then in terminal type the following:
 
@@ -50,21 +50,21 @@ Here’s what I currently have installed:
 
 I use the built in quick switch project tool to flick between projects. It’s fast and remembers where you left off. If you’re in and out of projects all day, you’ll love this feature. Hit <kbd>Cmd</kbd> + <kbd>Ctrl</kbd> + <kbd>P</kbd> and the Switch Project dialogue will appear. Just type the first few letters of your project until it highlights, then hit enter.
 
-![Sublime Text Switch Project Menu]({{ site.url }}/assets/images/posts/switch-project.png)
+![Sublime Text Switch Project Menu](../assets/images/posts/switch-project.png)
 
 ## Goto anything
 
 Perhaps one of my favourite Sublime Text features is the ‘goto anything’ feature. Hit  <kbd>Cmd</kbd> + <kbd>P</kbd> and it’ll reveal a list of files. Typing a name will show a live list of results below.
 
-![Sublime Text goto anything menu]({{ site.url }}/assets/images/posts/sublime-text-goto-anything.png)
+![Sublime Text goto anything menu](../assets/images/posts/sublime-text-goto-anything.png)
 
 Typing the file name followed by a hash will show a list of functions. 
 
-![Sublime Text goto anything menu]({{ site.url }}/assets/images/posts/sublime-text-hash.png)
+![Sublime Text goto anything menu](../assets/images/posts/sublime-text-hash.png)
 
 Typing the file name followed by a colon and a number will take you to that line in the file.
 
-![Sublime Text goto anything menu]({{ site.url }}/assets/images/posts/sublime-text-colon.png)
+![Sublime Text goto anything menu](../assets/images/posts/sublime-text-colon.png)
 
 ## Alfred workflow
 

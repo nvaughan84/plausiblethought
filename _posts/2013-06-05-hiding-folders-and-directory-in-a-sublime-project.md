@@ -7,7 +7,7 @@ I spend a lot of my time developing WordPress sites in Sublime Text 2. WordPress
 
 There is an easy way to hide these files from the Sublime Text sidebar, as illustrated below (left: default, right: hidden files).
 
-![My Alfred blog post workflow]({{ site.url }}/assets/images/posts/sublime-sidebar.png)
+![My Alfred blog post workflow](../assets/images/posts/sublime-sidebar.png)
 
 To hide files from the sidebar, you’ll need to:
 

@@ -11,7 +11,7 @@ Fast-forward to today.
 
 Two days ago, [Microsoft unveiled a new logo](http://blogs.technet.com/b/microsoft_blog/archive/2012/08/23/microsoft-unveils-a-new-look.aspx) - the first time they have done so in 25 years. And, for me, the promise that the Metro design aesthetic brought, the promise that Microsoft was still relevant, has gone. Let me explain.
 
-![Microsoft's new logo]({{ site.url }}/assets/images/posts/microsoft-new-logo.jpg)
+![Microsoft's new logo](../assets/images/posts/microsoft-new-logo.jpg)
 
 Recognise anything in the logo above? *The Windows logo*. Windows, of course, being Microsoft’s flagship product. I think that aligning the companies branding with their flagship product is a mistake.
 

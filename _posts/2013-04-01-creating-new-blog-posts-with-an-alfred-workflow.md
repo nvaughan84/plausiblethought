@@ -10,13 +10,13 @@ I’ve created a Workflow that makes creating a new blog post quick and easy. I 
 * create a new directory with a name generated from the slug and blog post number
 * create a post.txt file within the directory created above, populated with my blog post structure
 
-![My Alfred blog post workflow]({{ site.url }}/assets/images/posts/alfred-blog-post-workflow.png)
+![My Alfred blog post workflow](../assets/images/posts/alfred-blog-post-workflow.png)
 
 It works by running the following bash script:
 
 <script src="https://gist.github.com/marcjenkins/6599395.js"></script>
 
-You can [download the Workflow here]({{ site.url }}/assets/files/plausiblethought.newblogpost.zip).
+You can [download the Workflow here](../assets/files/plausiblethought.newblogpost.zip).
 
 *Note:* You’ll need to modify the blog path in the bash script.
 
