@@ -16,7 +16,7 @@ It works by running the following bash script:
 
 <script src="https://gist.github.com/marcjenkins/6599395.js"></script>
 
-You can (file: plausiblethought.newblogpost.zip text: download the Workflow here).
+You can [download the Workflow here]({{ site.url }}/assets/files/plausiblethought.newblogpost.zip).
 
 *Note:* You’ll need to modify the blog path in the bash script.
 
