@@ -4,4 +4,3 @@ url: http://www.plausiblethought.net
 markdown: redcarpet
 pygments: true
 permalink: /:title
-baseurl: /plausiblethought
