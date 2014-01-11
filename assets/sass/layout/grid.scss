@@ -171,3 +171,9 @@
     max-width: 1180px;
   }
 }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

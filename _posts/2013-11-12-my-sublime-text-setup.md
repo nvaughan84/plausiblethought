@@ -2,6 +2,7 @@
 layout: post
 title:  "My Sublime Text setup"
 date:   2013-11-12 22:48:45
+comments: true
 ---
 I’ve been using Sublime Text for over 2 years now and I’ve grown to be an advocate of the popular text editor. It’s fast, flexible and reliable. 
 

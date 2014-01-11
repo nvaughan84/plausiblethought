@@ -567,6 +567,11 @@ a:hover {
   .l-wider .l-grid {
     margin: 0 auto;
     max-width: 1180px; } }
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 /*------------------------------------*\
     LAYOUT
 \*------------------------------------*/
@@ -602,7 +607,7 @@ h1 a {
       padding-left: 0; }
 
 .post-nav {
-  margin: 4em 0; }
+  margin: 2em 0; }
   .post-nav a {
     display: block;
     padding: 5px 10px;
