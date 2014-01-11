@@ -8,11 +8,20 @@
 
 	li {
 		margin: 0 auto;
-		padding: 1em 0 0.25em 0;
 		width: 80%;
-		border-bottom: 1px solid #EEEEEE;
+		border-bottom: 1px solid #EEEEEE;		
 		list-style: none;
 		font-size: 1.2em;
+	}
+
+	li a {
+		display: block;
+		padding: 1em;
+		transition: background-color 0.5s ease;
+
+		&:hover {
+			background: #eee;
+		}
 	}
 
 	.post-date {
