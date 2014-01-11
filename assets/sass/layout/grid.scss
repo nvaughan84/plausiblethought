@@ -16,34 +16,34 @@
 
 .l-grid .l-unit {
   float: left;
-  width: 100%;
   padding: 10px;
+  width: 100%;
 }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters.l- */
 .l-grid .l-unit:first-child {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 .l-grid .l-unit:last-child {
-	padding-right: 20px;
+  padding-right: 20px;
 }
 
 /* Nested grids already have padding though, so let’s nuke it */
 .l-unit .l-unit:first-child {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .l-unit .l-unit:last-child {
-	padding-right: 0;
+  padding-right: 0;
 }
 
 .l-unit .l-grid:first-child > .l-unit {
-	padding-top: 0;
+  padding-top: 0;
 }
 
 .l-unit .l-grid:last-child > .l-unit {
-	padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Let people nuke the gutters/padding completely in a couple of ways */
@@ -55,57 +55,57 @@
 /* Wrapping at a maximum width is optional */
 .l-wrap .l-grid,
 .l-grid.l-wrap {
-  max-width: 740px;
   margin: 0 auto;
+  max-width: 740px;
 }
 
 /* Width classes */
 .l-grid .l-whole {
-	width: 100%;
+  width: 100%;
 }
 
 .l-grid .l-half {
-	width: 50%;
+  width: 50%;
 }
 
 .l-grid .l-one-third {
-	width: 33.3332%;
+  width: 33.3332%;
 }
 
 .l-grid .l-two-thirds {
-	width: 66.6665%;
+  width: 66.6665%;
 }
 
 .l-grid .l-one-quarter {
-	width: 25%;
+  width: 25%;
 }
 
 .l-grid .l-three-quarters {
-	width: 75%;
+  width: 75%;
 }
 
 .l-grid .l-one-fifth {
-	width: 20%;
+  width: 20%;
 }
 
 .l-grid .l-two-fifths {
-	width: 40%;
+  width: 40%;
 }
 
 .l-grid .l-three-fifths {
-	width: 60%;
+  width: 60%;
 }
 
 .l-grid .l-four-fifths {
-	width: 80%;
+  width: 80%;
 }
 
 .l-grid .l-golden-small {
-	width: 38.2716%;
+  width: 38.2716%;
 }
 
 .l-grid .l-golden-large { 
-	width: 61.7283%;
+  width: 61.7283%;
 }
 
 /* Clearfix after every .l-grid */
@@ -123,36 +123,36 @@
 
 /* Utility classes */
 .l-align-center {
-	text-align: center;
+  text-align: center;
 }
 
 .l-align-left {
-	text-align: left;
+  text-align: left;
 }
 
 .l-align-right {
-	text-align: right;
+  text-align: right;
 }
 
 .l-pull-left {
-	float: left;
+  float: left;
 }
 
 .l-pull-right {
-	float: right;
+  float: right;
 }
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
   /* Stack anything that isn’t full-width on smaller screens */
   .l-grid .l-unit {
-    width: 100% !important;
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
+    width: 100% !important;
   }
   .l-unit .l-grid .l-unit {
-    padding-left: 0px;
     padding-right: 0px;
+    padding-left: 0px;
   }
 
   /* Sometimes, you just want to be different on small screens */
@@ -167,7 +167,7 @@
 /* Expand the wrap a bit further on larger screens */
 @media screen and (min-width: 1180px) {
   .l-wider .l-grid {
-    max-width: 1180px;
     margin: 0 auto;
+    max-width: 1180px;
   }
 }

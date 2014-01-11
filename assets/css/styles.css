@@ -377,20 +377,20 @@ textarea:-moz-placeholder {
 body {
   background-color: white;
   color: #444444;
+  font-weight: 400;
   font-size: 20px;
   font-family: "Lato", sans-serif;
   line-height: 30px;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400; }
+  -webkit-font-smoothing: antialiased; }
 
 p {
   margin: 0 0 20px; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
   line-height: 1em;
   text-rendering: optimizelegibility;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700; }
+  -webkit-font-smoothing: antialiased; }
 
 h1 {
   margin: 0 0 1em;
@@ -403,9 +403,9 @@ h2 {
 
 h3 {
   margin: 2em 0 1em;
+  text-transform: uppercase;
   font-size: 1em;
-  line-height: 1.2em;
-  text-transform: uppercase; }
+  line-height: 1.2em; }
 
 h4 {
   margin: 0 0 1.33em;
@@ -420,12 +420,12 @@ p.lead {
 
 a {
   color: #3a83c6;
+  text-decoration: none;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-  text-decoration: none; }
+  transition: color 0.2s ease-in-out; }
 
 a:hover {
   color: #1d4264; }
@@ -445,8 +445,8 @@ a:hover {
 
 .l-grid .l-unit {
   float: left;
-  width: 100%;
-  padding: 10px; }
+  padding: 10px;
+  width: 100%; }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters.l- */
 .l-grid .l-unit:first-child {
@@ -476,8 +476,8 @@ a:hover {
 /* Wrapping at a maximum width is optional */
 .l-wrap .l-grid,
 .l-grid.l-wrap {
-  max-width: 740px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 740px; }
 
 /* Width classes */
 .l-grid .l-whole {
@@ -548,13 +548,13 @@ a:hover {
 @media screen and (max-width: 568px) {
   /* Stack anything that isn’t full-width on smaller screens */
   .l-grid .l-unit {
-    width: 100% !important;
+    padding-right: 20px;
     padding-left: 20px;
-    padding-right: 20px; }
+    width: 100% !important; }
 
   .l-unit .l-grid .l-unit {
-    padding-left: 0px;
-    padding-right: 0px; }
+    padding-right: 0px;
+    padding-left: 0px; }
 
   /* Sometimes, you just want to be different on small screens */
   .l-center-on-mobiles {
@@ -565,31 +565,33 @@ a:hover {
 /* Expand the wrap a bit further on larger screens */
 @media screen and (min-width: 1180px) {
   .l-wider .l-grid {
-    max-width: 1180px;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    max-width: 1180px; } }
 /*------------------------------------*\
     LAYOUT
 \*------------------------------------*/
 .l-page-head {
-  margin: 50px 0;
-  padding: 15px 0 10px 0;
-  text-align: center; }
+  margin: 0 0 50px 0;
+  padding: 15px 0;
+  background: #f9f9f9; }
+
+.page-title, .page-nav {
+  display: block;
+  margin: 0 auto;
+  width: 80%; }
 
 .logo {
   margin: 20px 0; }
-
-h1.page-title {
-  margin: 0; }
 
 h1 a {
   color: #333;
   font-size: 0.75em; }
 
 .l-page-footer {
+  margin-top: 20px;
   border-top: 1px solid #eee;
   text-align: center;
-  font-size: 0.75em;
-  margin-top: 20px; }
+  font-size: 0.75em; }
 
 /*------------------------------------*\
     NAVIGATION
@@ -598,20 +600,22 @@ h1 a {
   color: #999; }
   .page-nav a {
     padding: 0 5px; }
+    .page-nav a:first-child {
+      padding-left: 0; }
 
 .post-nav {
   margin: 4em 0; }
   .post-nav a {
     display: block;
+    padding: 5px 10px;
     width: 50%;
     color: #3a83c6;
-    padding: 5px 10px;
     font-size: 0.75em; }
     .post-nav a:hover {
       background: #eee; }
   .post-nav a[rel~="next"] {
-    text-align: right;
-    float: right; }
+    float: right;
+    text-align: right; }
   .post-nav a[rel~="prev"] {
     float: left; }
   .post-nav p {
@@ -626,58 +630,60 @@ h1 a {
   margin: 0;
   padding: 0; }
   .all-posts li {
-    list-style: none;
-    border-bottom: 1px solid #EEEEEE;
+    margin: 0 auto;
     padding: 1em 0 0.25em 0;
+    width: 80%;
+    border-bottom: 1px solid #EEEEEE;
+    list-style: none;
     font-size: 1.2em; }
   .all-posts .post-date {
     display: block;
     color: #999;
-    font-size: 0.65em;
-    font-weight: 300; }
+    font-weight: 300;
+    font-size: 0.65em; }
 
 .posts {
   margin: 50px 0 0 0;
   padding: 0; }
 
 .posts li {
+  margin-bottom: 40px;
   list-style: none;
   text-align: center;
-  margin-bottom: 40px;
   font-size: 1.5em; }
   .posts li span {
     display: block;
-    font-size: 0.6em;
-    color: #999; }
+    color: #999;
+    font-size: 0.6em; }
 
 kbd {
-  background-color: #f3f3f3;
-  border: 1px solid #ccc;
   padding: .1em .6em;
-  font-size: .9em;
-  text-shadow: 0 1px 0 #fff;
+  border: 1px solid #ccc;
   border-radius: 3px;
-  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px white inset;
+  background-color: #f3f3f3;
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px white inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px white inset;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px white inset;
-  white-space: nowrap; }
+  text-shadow: 0 1px 0 #fff;
+  white-space: nowrap;
+  font-size: .9em; }
 
 article img {
-  max-width: 100%;
+  display: block;
   margin: 0 auto 20px auto;
-  display: block; }
+  max-width: 100%; }
 
 article {
   margin-top: 60px; }
   article p, article h1, article h2, article h3, article h4, article time {
-    width: 80%;
+    margin-right: auto;
     margin-left: auto;
-    margin-right: auto; }
+    width: 80%; }
   article blockquote {
     margin: 2em 0;
+    color: #999;
     font-style: italic;
-    font-size: 1.2em;
-    color: #999; }
+    font-size: 1.2em; }
     article blockquote span {
       display: block;
       color: #666; }
@@ -685,37 +691,37 @@ article {
     width: 100%; }
   article ul {
     display: block;
-    width: 80%;
     margin: 0 auto 1.5em auto;
-    padding: 0; }
+    padding: 0;
+    width: 80%; }
   article time {
     display: block;
-    color: #999;
-    margin: 0 auto 0.5em auto; }
+    margin: 0 auto 0.5em auto;
+    color: #999; }
   @media screen and (max-width: 568px) {
     article p, article h1, article h2, article h3, article h4, article time {
-      width: 95%;
+      margin-right: auto;
       margin-left: auto;
-      margin-right: auto; } }
+      width: 95%; } }
 
 pre {
   overflow: auto;
-  background: #eee;
-  padding: 0 20px;
   margin: 0 auto 1.5em auto;
-  font-size: 1.6em;
-  width: 80%; }
+  padding: 0 20px;
+  width: 80%;
+  background: #eee;
+  font-size: 1.6em; }
 
 code {
-  padding: 0;
   margin: 0;
+  padding: 0;
   color: #666; }
 
 pre, code {
-  font-family: "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
-  font-size: .8em; }
+  font-size: .8em;
+  font-family: "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace; }
 
 .gist {
-  font-size: 0.7em;
   margin-bottom: 2em;
+  font-size: 0.7em;
   line-height: 1.6em; }

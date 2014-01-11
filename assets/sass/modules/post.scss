@@ -7,17 +7,19 @@
 	padding: 0;
 
 	li {
-		list-style: none;
-		border-bottom: 1px solid #EEEEEE;
+		margin: 0 auto;
 		padding: 1em 0 0.25em 0;
+		width: 80%;
+		border-bottom: 1px solid #EEEEEE;
+		list-style: none;
 		font-size: 1.2em;
 	}
 
 	.post-date {
 		display:block;
 		color: #999;
-		font-size: 0.65em;
 		font-weight: 300;
+		font-size: 0.65em;
 
 	}
 }
@@ -28,51 +30,51 @@
 }
 
 .posts li {
+	margin-bottom: 40px;
 	list-style: none;
 	text-align: center;
-	margin-bottom: 40px;
 	font-size: 1.5em;
 
 	span {
 		display: block;
-		font-size:  0.6em;
 		color: #999;
+		font-size:  0.6em;
 	}
 }
 
 kbd {
-	background-color: #f3f3f3;
-	border: 1px solid #ccc;
 	padding: .1em .6em;
-	font-size: .9em;
-	text-shadow: 0 1px 0 #fff;
+	border: 1px solid #ccc;
 	border-radius: 3px;
-	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 1px #fff inset;
+	background-color: #f3f3f3;
 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 1px #fff inset;
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 1px #fff inset;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 1px #fff inset;
+	text-shadow: 0 1px 0 #fff;
 	white-space: nowrap;
+	font-size: .9em;
 }
 
 article  img {
-	max-width: 100%;
-	margin: 0 auto 20px auto;
 	display: block;
+	margin: 0 auto 20px auto;
+	max-width: 100%;
 }
 
 article {
 	margin-top: 60px;
 
 	p, h1, h2, h3, h4, time {
-		width: 80%;
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
+		width: 80%;
 	}
 
 	blockquote {
 		margin: 2em 0;
+		color: #999;
 		font-style: italic;
 		font-size: 1.2em;
-		color: #999;
 
 		span {
 			display: block;
@@ -86,48 +88,48 @@ article {
 
 	ul {
 		display: block;
-		width: 80%;
 		margin: 0 auto 1.5em auto;
 		padding: 0;
+		width: 80%;
 	}
 
 	time {
 		display: block;
-		color: #999;
 		margin: 0 auto 0.5em auto;
+		color: #999;
 	}
 
 	@media screen and (max-width: 568px) {
 		p, h1, h2, h3, h4, time {
-			width: 95%;
-			margin-left: auto;
 			margin-right: auto;
+			margin-left: auto;
+			width: 95%;
 		}	
 	}
 }
 
 pre {
 	overflow: auto;
-	background: #eee;
-	padding: 0 20px;
 	margin: 0 auto 1.5em auto;
-	font-size: 1.6em;
+	padding: 0 20px;
 	width: 80%;
+	background: #eee;
+	font-size: 1.6em;
 }
 
 code {
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	color: #666;
 }
 
 pre, code {
-	font-family: "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
 	font-size: .8em;
+	font-family: "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
 }
 
 .gist {
-	font-size: 0.7em;
 	margin-bottom: 2em;
+	font-size: 0.7em;
 	line-height: 1.6em;
 }

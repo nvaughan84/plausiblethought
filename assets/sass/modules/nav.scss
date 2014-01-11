@@ -8,6 +8,10 @@
 
 	a {
 		padding: 0 5px;
+
+		&:first-child {
+			padding-left: 0;
+		}
 	}
 }
 
@@ -19,9 +23,9 @@
 
 	a {
 		display: block;
+		padding: 5px 10px;
 		width: 50%;
 		color: $linkColour;
-		padding: 5px 10px;
 		font-size: 0.75em;
 
 		&:hover {
@@ -30,8 +34,8 @@
 	}
 
 	a[rel~="next"] {
-		text-align: right;
 		float: right;
+		text-align: right;
 	}
 
 	a[rel~="prev"] {

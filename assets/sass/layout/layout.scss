@@ -4,17 +4,19 @@
 
 
 .l-page-head {
-	margin: 50px 0;
-	padding: 15px 0 10px 0;
-	text-align: center;
+	margin: 0 0 50px 0;
+	padding: 15px 0;
+	background: #f9f9f9;
+}
+
+.page-title, .page-nav {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
 }
 
 .logo {
 	margin: 20px 0;
-}
-
-h1.page-title {
-	margin: 0;
 }
 
 h1 a {
@@ -23,8 +25,8 @@ h1 a {
 }
 
 .l-page-footer {
+	margin-top: 20px;
 	border-top: 1px solid #eee;
 	text-align: center;
 	font-size: 0.75em;
-	margin-top: 20px;
 }
