@@ -56,7 +56,7 @@ This is a real pet peeve of mine. I've heard something to this affect many times
 
 Being creative does not mean drawing pretty pictures. Everyone in your team is creative.
 
-As Brad Frost so eloquently put it *“Every single person on earth has creative capacity.  Kindly slap anyone using "creative" as a way to describe a type of person.”*
+As [Brad Frost](https://twitter.com/brad_frost/status/327473623147352064) so eloquently put it *“Every single person on earth has creative capacity.  Kindly slap anyone using "creative" as a way to describe a type of person.”*
 
 >“I define creativity as the process of having original ideas that have value.”
 >— Ken Robinson
